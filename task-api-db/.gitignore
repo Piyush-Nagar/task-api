@@ -24,3 +24,4 @@ target/
 task-api-db/target/
 task-api-server/target/
 project/target
+.idea/

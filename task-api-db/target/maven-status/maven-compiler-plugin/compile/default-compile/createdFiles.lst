@@ -1,6 +1,0 @@
-com/piyush/task/TaskDao.class
-com/piyush/task/CassandraService.class
-com/piyush/task/Task.class
-com/piyush/task/Status.class
-com/piyush/task/Task$TaskBuilder.class
-com/piyush/task/TaskAccessor.class
