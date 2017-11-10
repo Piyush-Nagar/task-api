@@ -20,17 +20,7 @@ public class TaskCreateService extends AbstractTaskService {
   }
 
   public TaskCreateResponse createTask(Task task) {
-    taskDao.insert(changeToDb(task));
+    taskDao.insert(Task.changeToDb(task));
     return new TaskCreateResponse(task.getId(), TaskCreateResponse.getSuccessMsg());
-  }
-
-  private com.piyush.task.Task changeToDb(Task task) {
-    return com.piyush.task.Task.builder()
-        .id(task.getId())
-        .name(task.getName())
-        .createdOn(task.getCreatedOn())
-        .description(task.getDescription())
-        .status(task.getStatus())
-        .build();
   }
 }
