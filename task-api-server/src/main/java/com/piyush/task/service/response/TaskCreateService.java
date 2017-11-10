@@ -10,10 +10,11 @@ import org.springframework.stereotype.Service;
 
 @Slf4j
 @Service
-@AllArgsConstructor
 public class TaskCreateService extends AbstractTaskService {
 
-  private final TaskDao taskDao;
+  public TaskCreateService(TaskDao taskDao) {
+    super(taskDao);
+  }
 
   public TaskOperation operation() {
     return TaskOperation.CREATE;

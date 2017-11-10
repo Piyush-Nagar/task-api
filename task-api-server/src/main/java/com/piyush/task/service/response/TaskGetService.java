@@ -16,11 +16,12 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 @Slf4j
-@AllArgsConstructor
 @Service
 public class TaskGetService extends AbstractTaskService {
 
-  private final TaskDao taskDao;
+  public TaskGetService(TaskDao taskDao) {
+    super(taskDao);
+  }
 
   @Override
   public TaskOperation operation() {

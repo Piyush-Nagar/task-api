@@ -10,9 +10,11 @@ import org.springframework.stereotype.Service;
 
 @Slf4j
 @Service
-@AllArgsConstructor
 public class TaskDeleteService extends AbstractTaskService {
-  private final TaskDao taskDao;
+
+  public TaskDeleteService(TaskDao taskDao) {
+    super(taskDao);
+  }
 
   public TaskOperation operation() {
     return TaskOperation.DELETE;
@@ -21,15 +23,5 @@ public class TaskDeleteService extends AbstractTaskService {
   public TaskDeleteResponse deleteTask(String id) {
     taskDao.delete(id);
     return new TaskDeleteResponse(id, TaskDeleteResponse.getSuccessMsg());
-  }
-
-  private com.piyush.task.Task changeToDb(Task task) {
-    return com.piyush.task.Task.builder()
-        .id(task.getId())
-        .name(task.getName())
-        .createdOn(task.getCreatedOn())
-        .description(task.getDescription())
-        .status(task.getStatus())
-        .build();
   }
 }
