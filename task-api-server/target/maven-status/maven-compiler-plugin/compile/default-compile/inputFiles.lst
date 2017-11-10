@@ -1,0 +1,15 @@
+/home/piyush/ALL/evive/allproject/MyGitProjects/task-api/task-api-server/src/main/java/com/piyush/task/service/TaskResolver.java
+/home/piyush/ALL/evive/allproject/MyGitProjects/task-api/task-api-server/src/main/java/com/piyush/task/service/response/TaskDeleteService.java
+/home/piyush/ALL/evive/allproject/MyGitProjects/task-api/task-api-server/src/main/java/com/piyush/task/service/response/TaskCreateService.java
+/home/piyush/ALL/evive/allproject/MyGitProjects/task-api/task-api-server/src/main/java/com/piyush/task/model/response/TaskGetResponse.java
+/home/piyush/ALL/evive/allproject/MyGitProjects/task-api/task-api-server/src/main/java/com/piyush/task/service/response/TaskUpdateService.java
+/home/piyush/ALL/evive/allproject/MyGitProjects/task-api/task-api-server/src/main/java/com/piyush/task/enums/TaskOperation.java
+/home/piyush/ALL/evive/allproject/MyGitProjects/task-api/task-api-server/src/main/java/com/piyush/task/service/response/AbstractTaskService.java
+/home/piyush/ALL/evive/allproject/MyGitProjects/task-api/task-api-server/src/main/java/com/piyush/task/model/response/TaskUpdateResponse.java
+/home/piyush/ALL/evive/allproject/MyGitProjects/task-api/task-api-server/src/main/java/com/piyush/task/model/response/TaskGetAllResponse.java
+/home/piyush/ALL/evive/allproject/MyGitProjects/task-api/task-api-server/src/main/java/com/piyush/task/model/response/TaskDeleteResponse.java
+/home/piyush/ALL/evive/allproject/MyGitProjects/task-api/task-api-server/src/main/java/com/piyush/task/model/response/TaskCreateResponse.java
+/home/piyush/ALL/evive/allproject/MyGitProjects/task-api/task-api-server/src/main/java/com/piyush/task/controller/TaskController.java
+/home/piyush/ALL/evive/allproject/MyGitProjects/task-api/task-api-server/src/main/java/com/piyush/Application.java
+/home/piyush/ALL/evive/allproject/MyGitProjects/task-api/task-api-server/src/main/java/com/piyush/task/service/response/TaskGetService.java
+/home/piyush/ALL/evive/allproject/MyGitProjects/task-api/task-api-server/src/main/java/com/piyush/task/model/Task.java
